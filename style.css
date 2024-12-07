@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headercontainer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.headercontainer nav ul li {
+    display: inline;
+    margin: 10px
+}
+
+.btn1 {
+    width: 130px;
+    height: 44px;
+    font-size: 17px;
+    margin: 10px;
+    background-color: #0071E3;
+    color: white;
+    border-radius: 20px;
+    border-color: #0071E3;
+
+}
+
+.btn2 {
+    width: 73px;
+    height: 44px;
+    font-size: 17px;
+    background-color: #0071E3;
+    color: white;
+    border-radius: 20px;
+    border-color: #0071E3;
+}
+
+.heading1 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.imgtext1 {
+    position: absolute;
+    width: 100%;
+    bottom: 100px;
+    top: 40px;
+    font-size: 30px;
+}
+
+.imgtext2 {
+    position: absolute;
+    width: 100%;
+    top: 150px;
+}
+
+
+            /* Banner 1 End */
+
+
+            /* Banner 2 Start */
+
+.heading2 {
+    width: 1349px;
+    height: 580px;
+    position: relative;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(180deg, rgb(12, 18, 71), rgb(40, 51, 125) 28%, rgb(80, 93, 173) 46%, rgb(125, 142, 209) 60%, rgb(174, 188, 230) 75%, rgb(239, 236, 255) 90%, rgb(255, 255, 255));
+}
+
+.imgtext3 {
+    position: absolute;
+    width: 100%;
+    bottom: 100px;
+    top: 300px;
+    font-size: 30px;
+    color: white;
+}
+
+.imgtext4 {
+    position: absolute;
+    width: 100%;
+    top: 420px;
+}
+
+
+            /* Banner 2 End */
+
+
+.boxcontainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.img1-box {
+    width: 50%;
+    height: 50%;
+    padding: 5px;
+    gap: 5px;
+    position: relative;
+}
+
+.img2-box {
+    width: 50%;
+    height: 50%;
+    padding: 5px;
+    gap: 5px;
+}
+
+.bt1 {
+
+    /* position: absolute; */
+    font: 14px;
+    padding: 7px 15px;
+    background-color: #0077ED;
+    color: white;
+    border-radius: 20px;
+    border-color: rgba(0, 0, 0, 0);
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+
+.bt2 {
+    font: 14px;
+    padding: 7px 15px;
+    background-color: #0077ED;
+    color: white;
+    border-radius: 20px;
+    border-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+
+
+
+}
+
+.content1 {
+    position: absolute;
+    font-size: 21px;
+    top: 80px;
+    left: 200px;
+    color: white;
+    text-align: center;
+
+}
+
+.img2-box {
+    position: relative;
+}
+
+.content2 {
+    position: absolute;
+    font-size: 21px;
+    top: 80px;
+    left: 200px;
+    color: white;
+    text-align: center;
+    color: black;
+}
+
+            /* Image 2&3 Completed */
+
+            /* Banner 3 Start */
+
+
+.content3 {
+    position: absolute;
+    left: 200px;
+    color: white;
+    top: 400px;
+    text-align: center;
+    left: 150px;
+    font-size: 21px;
+
+}
+
+.img2-box {
+    position: relative;
+}
+
+.content4 {
+    position: absolute;
+    font-size: 21px;
+    top: 80px;
+    left: 200px;
+    color: white;
+    color: black;
+    text-align: center;
+
+}
+
+
+.bannerimg {
+    padding: 5px;
+}
+
+            /* Banner 3 End */
+
+
+            /* Footer Star */
+
+
+.textfooter{
+     margin-top: 30px;
+     margin-left: 180px;
+     margin-bottom: 80px;
+     background: rgb(245, 245, 247);
+     border-color: rgba(0, 0, 0, 0.16);
+     border: 1px;
+     display: flex;
+     text-align: center;
+     width: 1000px;
+     vertical-align: bottom;
+}
+
+.footer1{
+    background-color: #f5f5f7;
+    margin-bottom: 25px;
+
+
+}
+    
+     
+
+
+.textfooter ul{
+    
+    text-align: start;
+    list-style: none;
+    
+}
+
+.FooterNav{
+    display: flex;
+    justify-content: center ;
+    justify-content: space-evenly;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+.FooterNav li{
+    list-style: none;
+}
